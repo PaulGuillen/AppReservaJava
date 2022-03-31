@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ActionBarStyle">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/img_principal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/principal"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                        android:contentDescription="@string/todo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@id/img_principal"
+                        android:paddingBottom="4dp"
+                        android:text="Cafetería"
+                        android:textAppearance="@style/TitulosActionBar" />
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Ensaladas"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/first_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="1"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Bebidas"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/second_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            app:msrv_gravity="center"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Desayunos"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/third_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            app:msrv_gravity="center"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Aperitivos"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:id="@+id/fourth_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            app:msrv_gravity="end"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="2" />
+
+    </LinearLayout>
+
+</ScrollView>

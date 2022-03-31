@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1040202410168",
+    "firebase_url": "https://panaderiafinalcibertec.firebaseio.com",
+    "project_id": "panaderiafinalcibertec",
+    "storage_bucket": "panaderiafinalcibertec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040202410168:android:750ac5fcc6b37b96feac4d",
+        "android_client_info": {
+          "package_name": "devpaul.business.empresaexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040202410168-ku59ahiehik8kqlberov8v15roroo7po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "devpaul.business.empresaexample",
+            "certificate_hash": "75456fe498b5292c6439d4f1407b8c869b9292c9"
+          }
+        },
+        {
+          "client_id": "1040202410168-11j8tpb74tt54uqr2l3fb5k9hrsgqg0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxvoPbEs7qydHBE9LEK-CtU4H5ou1nEp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040202410168-11j8tpb74tt54uqr2l3fb5k9hrsgqg0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

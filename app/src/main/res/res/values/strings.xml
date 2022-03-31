@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Brots</string>
+    <string name="hello_blank_fragment">Fragment</string>
+    <string name="distritos_disponibles">Distritos disponibles</string>
+    <string name="buscar">Buscar...</string>
+    <string name="loremp_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="todo">TODO</string>
+    <string name="noticia">Titulo de la noticia</string>
+    <string name="inicial_texto">Usar tus credenciales de autenticación facilitaran el acceso a nuestras distintas plataformas.</string>
+    <string name="cargando">Cargando..</string>
+    <string name="titulo">Título</string>
+    <string name="descripcion">Descripción</string>
+    <string name="fecha">Fecha</string>
+    <string name="pastel">(Pastel)</string>
+    <string name="tel_opcional">Tel.Opcional</string>
+    <string name="tel_celular">Tel.Celular</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombre">Nombre</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="reservar">Comprar</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="selecciona_distrito">Selecciona Distrito</string>
+    <string name="tipo">Tipo</string>
+    <string name="precio">Precio</string>
+    <string name="metodo_de_pago">Metodo de Pago :</string>
+    <string name="post_entrega">Efectivo</string>
+    <string name="pre_entrega">Tarjeta</string>
+    <string name="regresar">Regresar</string>
+    <string name="datos_del_producto">Datos del Producto</string>
+    <string name="producto">Producto</string>
+    <string name="texto_base">Aqui Texto</string>
+    <string name="precio_s">Precio: S/.</string>
+    <string name="estado">Estado:</string>
+    <string name="link_recetas">Deseas ver las recetas?</string>
+    <string name="presiona_aqu">Presiona aquí!</string>
+    <string name="cafeteria">Cafetería</string>
+    <string name="llamanos">Llamanos!</string>
+    <string name="brot_s">Brot\'s</string>
+    <string name="bienvenido_a_brot_s">Bienvenido a Brot\'s</string>
+    <string name="texto_ingresa_correo">Ingresa con tu correo y contraseña para continuar.</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="no_tienes_una_cuenta">No tienes una cuenta?</string>
+    <string name="registrate_ahora">Registrate ahora!</string>
+    <string name="olvidaste_tu_contrase_a">Olvidaste tu contraseña?</string>
+    <string name="has_olvidado_tu_contrase_a">Has olvidado tu contraseña?</string>
+    <string name="bienvenido">Bienvenido a Brot\'s</string>
+    <string name="texto_arriba">Ingresa con tu correo y contraseña para continuar.</string>
+    <string name="texto_largo">Usar tus credenciales de autenticación facilitaran el acceso a nuestras distintas plataformas.</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="texto_largo2">Registrar tus credenciales en esta aplicación, facilitará el acceso a nuestras distintas plataformas.</string>
+    <string name="google">Google</string>
+    <string name="twitter">Twitter</string>
+
+    <string-array name="popup_list">
+        <item>Villa el Salvador</item>
+        <item>San Juan de Miraflores</item>
+        <item>Lurin</item>
+        <item>Villa Maria del Triunfo</item>
+    </string-array>
+
+</resources>

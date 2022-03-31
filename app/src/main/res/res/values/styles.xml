@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orange_primary_dark</item>
+        <item name="colorPrimaryDark">@color/orange_primary_dark</item>
+        <item name="colorAccent">@color/orange_primary_dark</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="TitulosActionBar" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="EditTextyTextViews" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/muli</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="Sub_Titulos" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">23sp</item>
+        <item name="android:fontFamily">@font/muli</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Sub_Sub_Titulos" parent="TextAppearance.AppCompat.Light.SearchResult.Subtitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/muli</item>
+        <item name="android:textColor">@color/gray_deep</item>
+    </style>
+
+
+    <style name="BotonesTexto" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/muli</item>
+    </style>
+
+    <style name="TextoOlvidasteyRegistro" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/muli</item>
+    </style>
+
+
+</resources>

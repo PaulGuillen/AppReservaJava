@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Inicio">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_panaderia"
+        android:icon="@drawable/ic_panaderia"
+        android:title="Panaderìa"></item>
+
+    <item
+        android:id="@+id/nav_pasteleria"
+        android:icon="@drawable/ic_pasteleria"
+        android:title="Pastelerìa"></item>
+
+    <item
+        android:id="@+id/nav_cafeteria"
+        android:icon="@drawable/ic_cafeteria"
+        android:title="Cafeterìa"></item>
+
+</menu>

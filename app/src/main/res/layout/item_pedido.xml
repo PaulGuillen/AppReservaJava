@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="195dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/gray"
+            android:gravity="center"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orden"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/idPedido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orden_del_pedido"
+                android:textSize="17sp"
+                android:textStyle="bold"
+
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#DFDFDF"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline_incial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="152dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline_final"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="70dp" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/muli"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_noticia_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/fecha_del_pedido"
+                android:fontFamily="@font/muli"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                app:layout_constraintStart_toStartOf="@id/guideline_incial"
+                app:layout_constraintTop_toTopOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/textview_distrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/distrito"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/muli"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView"/>
+
+            <TextView
+                android:id="@+id/textview_direccion_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:textColor="@color/black"
+                android:text="@string/direccion_del_cliente"
+                android:singleLine="true"
+                android:textSize="15sp"
+                android:layout_marginStart="5dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textview_distrito"
+                app:layout_constraintStart_toEndOf="@id/textview_distrito"
+                app:layout_constraintTop_toTopOf="@+id/textview_distrito" />
+
+            <TextView
+                android:id="@+id/textview_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/muli"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview_distrito"/>
+
+            <TextView
+                android:id="@+id/textview_total_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/total_pedido"
+                android:fontFamily="@font/muli"
+                android:textSize="15sp"
+                android:layout_marginStart="5dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textview_total"
+                app:layout_constraintStart_toEndOf="@id/textview_total"
+                app:layout_constraintTop_toTopOf="@+id/textview_total" />
+
+            <TextView
+                android:id="@+id/textview_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_nombre_de"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/muli"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview_total"/>
+
+            <TextView
+                android:id="@+id/textview_nombre_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/nombre_del_cliente"
+                android:fontFamily="@font/muli"
+                android:layout_marginStart="5dp"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textview_cliente"
+                app:layout_constraintStart_toEndOf="@id/textview_cliente"
+                app:layout_constraintTop_toTopOf="@+id/textview_cliente" />
+
+            <TextView
+                android:id="@+id/textview_estado_orden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/estado_de_la_orden"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:paddingBottom="15dp"
+                android:fontFamily="@font/muli"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview_cliente"/>
+
+            <TextView
+                android:id="@+id/textview_orden_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/estado"
+                android:fontFamily="@font/muli"
+                android:layout_marginStart="5dp"
+                android:textSize="15sp"
+                android:paddingBottom="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/deep_orange_primary_dark"
+                app:layout_constraintBottom_toBottomOf="@+id/textview_estado_orden"
+                app:layout_constraintStart_toEndOf="@id/textview_estado_orden"
+                app:layout_constraintTop_toTopOf="@+id/textview_estado_orden" />
+
+            <ImageButton
+                android:id="@+id/ib_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:contentDescription="@string/delete_icon"
+                android:src="@drawable/ic_delete_48"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guideline_final"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ImageContrastCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="#DFDFDF"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
