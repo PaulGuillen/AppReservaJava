@@ -21,9 +21,6 @@
             android:name=".vista.activities.metodopago.tarjeta.ClientPaymentFormMPVirtualActivity"
             android:exported="false" />
         <activity
-            android:name=".vista.activities.metodopago.tarjeta.ClientPaymentMercadoPagoActivity"
-            android:exported="false" />
-        <activity
             android:name=".vista.activities.metodopago.MPagoEfectivo"
             android:exported="false" />
         <activity
