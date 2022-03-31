@@ -30,9 +30,9 @@ _En este caso la contraseña del usuario es : 123456_
  <img src="https://i.postimg.cc/j56bCYnf/user-authentication.png"/>
 </p>
 
-_Algunos datos recibidos en Firebase Database_
-
 _Con este usuario probaremos las limitaciones de la aplicación movíl_
+
+_Algunos datos recibidos en Firebase Database_
 
 <p align="center">
  <img src="https://i.postimg.cc/vHZs8jY1/user-test.png"/>
