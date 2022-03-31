@@ -32,29 +32,46 @@ _En este caso la contraseña del usuario es : 123456_
 
 _Algunos datos recibidos en Firebase Database_
 
+_Con este usuario probaremos las limitaciones de la aplicación movíl_
+
 <p align="center">
  <img src="https://i.postimg.cc/vHZs8jY1/user-test.png"/>
 </p>
 
-_Con este usuario probaremos las limitaciones de la aplicación movíl_
   
- <p align="center">
- <img src="https://i.postimg.cc/65CjQ6gp/roles.png"/>
-</p>
-
 ## Ejecutando los diseños ⚙️
-_* Vista Login y Registro_
 
-_Bueno en este caso mostraré capturas de pantalla de las tres perspectivas de cada uno de los roles ( rol admin , rol cliente , rol repartidor)_
+_Vista del navigation view bottom_
 
-
-
-_* En este paso procederé a mostrar las vistas del rol cliente (Cliente)_
+_Bueno en esta ocasión mostraremos los 4 segmentos ( Inicio , Pastelería (El cual es el enfoque del proyecto), Panadería, Cafetería) que contiene la app, ya que este proyecto fue realizado para un proyecto universitario_
 
 <p align="center">
-
+ <img src="https://i.postimg.cc/ncmhfg0v/Screenshot-1648698464.png"/>
+  <img src="https://i.postimg.cc/GtHJpdH3/Screenshot-1648698494.png"/>
+ <img src="https://i.postimg.cc/rs3G03r1/Screenshot-1648698498.png"/>
+ <img src="https://i.postimg.cc/GhTxwLWq/Screenshot-1648698500.png"/>
 </p>
 
+_Vista de cada producto seleccionado por categoría_
+
+_**Categoría pastelería**_
+<p align="center">
+<img src="https://i.postimg.cc/sx4KBsrt/Screenshot-1648699242.png"/>
+<img src="https://i.postimg.cc/1RGv7cqJ/Screenshot-1648699244.png"/>
+</p>
+
+_**Categoría panadería**_
+<p align="center">
+<img src="https://i.postimg.cc/T2tDPKMT/Screenshot-1648699261.png"/>
+<img src="https://i.postimg.cc/BnKLNN8v/Screenshot-1648699286.png"/>
+</p>
+
+_**Categoría cafetería**_
+<p align="center">
+<img src="https://i.postimg.cc/XvnjFgdm/Screenshot-1648699292.png"/>
+<img src="https://i.postimg.cc/C11wrLv4/Screenshot-1648699306.png"/>
+</p>
+ 
  
  * Pagar con Paypal
 
@@ -80,7 +97,7 @@ _* En este paso procederé a mostrar las vistas del rol admin (Restaurante)_
 _* En este paso procederé a mostrar las vistas del rol repartidor (Repartidor)_
 
 <p align="center">
- <img src="https://i.postimg.cc/8CG0s224/Screenshot-1644611879.png"/>
+
 
 </p>
 
