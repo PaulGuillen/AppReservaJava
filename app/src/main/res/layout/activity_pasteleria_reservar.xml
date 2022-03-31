@@ -456,6 +456,7 @@
                 tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
             <Button
+                android:onClick="back_last_activity"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

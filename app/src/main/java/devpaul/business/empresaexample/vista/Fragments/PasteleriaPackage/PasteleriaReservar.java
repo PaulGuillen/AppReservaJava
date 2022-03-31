@@ -419,4 +419,9 @@ public class PasteleriaReservar extends AppCompatActivity {
     }
 
 
+    public void back_last_activity(View view) {
+        Intent i = new Intent(this,PasteleriaReservar.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
+    }
 }
