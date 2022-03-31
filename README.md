@@ -73,33 +73,37 @@ _**Categoría cafetería**_
 </p>
  
  
- * Pagar con Paypal
+_Reserva un producto_
 
- <p align="center">
+**Metodo de pago(post-entrega)**
+<p align="center">
+<img src="https://i.postimg.cc/pXtDKJBz/Screenshot-1648731986.png"/>
+<img src="https://i.postimg.cc/Qx4djXVC/Screenshot-1648731993.png"/>
+<img src="https://i.postimg.cc/8ChGfDkh/Screenshot-1648734594.png"/>
+<img src="https://i.postimg.cc/rsp2Hr1J/Screenshot-1648734603.png"/>
+<img src="https://i.postimg.cc/QC7wwJBc/Screenshot-1648734644.png"/>
+<img src="https://i.postimg.cc/ZRBMvxxX/Screenshot-1648734647.png"/>
+</p>
+
+
+**Metodo de pago(pre-entrega)**
+
+ * **Seguir mi otro reppositorio proyecto para añadir metodo de pago** - *DeliveryAppKotlin* - [DeliveryAppKotlin](https://github.com/PaulGuillen/DeliveryKotlinApp)
  
-
+ <p align="center">
+<img src="https://i.postimg.cc/pXtDKJBz/Screenshot-1648731986.png"/>
+<img src="https://i.postimg.cc/fbsFFdZ9/Screenshot-1648734622.png"/>
+<img src="https://i.postimg.cc/JzW5rSxB/Screenshot-1648734630.png"/>
 </p>
 
 
-_* En este paso procederé a mostrar las vistas del rol admin (Restaurante)_
+_*Aca veremos detalles del producto comprado, si el estado esta reservado, o si no has completado la accion comprar, el estado sera pagando_
 
 <p align="center">
-
+<img src="https://i.postimg.cc/0jw7xCJf/Screenshot-1648735226.png"/>
+<img src="https://i.postimg.cc/3R3WR5bW/Screenshot-1648740772.png"/>
 </p>
 
-  * Asignar un repartidor desde rol admin
-  
-<p align="center">
-
-
-</p>
-
-_* En este paso procederé a mostrar las vistas del rol repartidor (Repartidor)_
-
-<p align="center">
-
-
-</p>
 
 ## Autor ✒️
 
