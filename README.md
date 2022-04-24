@@ -104,6 +104,10 @@ _*Aca veremos detalles del producto comprado, si el estado esta reservado, o si 
 <img src="https://i.postimg.cc/3R3WR5bW/Screenshot-1648740772.png"/>
 </p>
 
+_Video demostrando algunas funcionalidades_
+
+https://user-images.githubusercontent.com/43099030/164953734-225dbe6c-bdc9-40f5-80c9-0544e1c9ce6d.mp4
+
 
 ## Autor ✒️
 
