@@ -1,0 +1,11 @@
+
+
+java:S1319("dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(ø®Ï–øÿÿÿÿ
+h	java:S116 "NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿û£òùÿÿÿÿ
+B
+java:S1602B",Remove useless curly braces around statement(œèœ¼
+B
+java:S1602F",Remove useless curly braces around statement(à¡óÔ
+V	java:S125J"<This block of commented-out lines of code should be removed.(×àùÙúÿÿÿÿ
+\
+java:S1659‚"EDeclare "nombreCl" and all following declarations on a separate line.(´ÌÏ 

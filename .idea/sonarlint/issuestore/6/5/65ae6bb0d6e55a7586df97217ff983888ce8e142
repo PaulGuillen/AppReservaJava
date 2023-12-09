@@ -1,0 +1,27 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íÚÅ€
+{
+java:S14503"`Remove the "mFirebaseDatabase" field and declare it as a local variable in the relevant methods.(íı°Ïıÿÿÿÿ
+p
+java:S14501"ZRemove the "mSharedPref" field and declare it as a local variable in the relevant methods.(üÓ
+Q
+java:S18744"6Remove this use of "ProgressDialog"; it is deprecated.(·á…Çùÿÿÿÿ
+Q	java:S125E"<This block of commented-out lines of code should be removed.(ˆñ
+œ
+java:S1186~"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·Ï’÷ıÿÿÿÿ
+
+java:S1186·"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·Ï’÷ıÿÿÿÿ
+J
+java:S1874Ò"3Remove this use of "NetworkInfo"; it is deprecated.(¶™Ûä
+S
+java:S1874Ò"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(¶™Ûä
+O
+java:S1874Ô"3Remove this use of "isConnected"; it is deprecated.(´ÓÅıÿÿÿÿ
+O
+java:S1874Ô"3Remove this use of "isAvailable"; it is deprecated.(´ÓÅıÿÿÿÿ
+?
+java:S1659ç"(Declare "searchView" on a separate line.(Ä»ıã
+W	java:S125€"<This block of commented-out lines of code should be removed.(ıó¯Âüÿÿÿÿ
+Q	java:S125ƒ"<This block of commented-out lines of code should be removed.(õøª'
+E
+java:S10681"/Remove this unused "mSharedPref" private field.(üÓ

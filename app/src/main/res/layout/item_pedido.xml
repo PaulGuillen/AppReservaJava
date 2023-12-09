@@ -6,7 +6,7 @@
     android:layout_marginRight="10dp"
     android:layout_marginTop="10dp"
     android:layout_marginLeft="10dp"
-    android:layout_height="195dp"
+    android:layout_height="wrap_content"
     app:cardCornerRadius="5dp"
     app:cardElevation="5dp"
     app:cardUseCompatPadding="true">

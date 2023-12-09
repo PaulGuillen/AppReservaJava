@@ -1,0 +1,5 @@
+
+f	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÍÕÖ
+h	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù‘±Íÿÿÿÿÿ
+n
+java:S1450"XRemove the "mDatabase" field and declare it as a local variable in the relevant methods.(àıˆ
